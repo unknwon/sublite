@@ -3,6 +3,8 @@ SubLite
 
 SubLite is a theme converter from Sublime Text to LiteIDE.
 
+It's only working with theme download from http://colorsublime.com/ right now.
+
 - Installation:
 
 		go get github.com/Unknwon/sublite
