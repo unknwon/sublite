@@ -42,7 +42,7 @@ func main() {
 		log.Fatalf("Fail to generate LiteIDE theme: %v", err)
 	}
 
-	if err = ioutil.WriteFile(strings.TrimSuffix(fileName, ".tmTheme")+".xml", data, os.ModePerm); err != nil {
+	if err = ioutil.WriteFile(strings.TrimSuffix(fileName, ".tmTheme")+".xml", data, 0644); err != nil {
 		log.Fatalf("Fail to save LiteIDE theme: %v", err)
 	}
 }
